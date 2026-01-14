@@ -1,0 +1,36 @@
+
+--- Running Optimization with GLOP ---
+Status: OPTIMAL
+Total Profit: $16666.67
+Total Production: 450.00 tons
+Final Hardness: 6.00 (Target: 3.0-6.0)
+Composition:
+  - VEG1: 66.67 tons
+  - VEG2: 133.33 tons
+  - NVEG2: 250.00 tons
+Solver Time: 0.0000 ms
+Iterations: 3
+
+--- Running Optimization with PDLP ---
+Status: OPTIMAL
+Total Profit: $16666.67
+Total Production: 450.00 tons
+Final Hardness: 6.00 (Target: 3.0-6.0)
+Composition:
+  - VEG1: 66.67 tons
+  - VEG2: 133.33 tons
+  - NVEG2: 250.00 tons
+Solver Time: 0.0000 ms
+Iterations: 192
+
+--- Running Optimization with SCIP ---
+Status: OPTIMAL
+Total Profit: $16666.67
+Total Production: 450.00 tons
+Final Hardness: 6.00 (Target: 3.0-6.0)
+Composition:
+  - VEG1: 66.67 tons
+  - VEG2: 133.33 tons
+  - NVEG2: 250.00 tons
+Solver Time: 0.0010 ms
+Iterations: 3
