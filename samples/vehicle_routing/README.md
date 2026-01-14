@@ -5,11 +5,11 @@ This example demonstrates solving the classic Vehicle Routing Problem using Goog
 ## Problem Description
 
 The Vehicle Routing Problem (VRP) is a combinatorial optimization problem where:
-- A fleet of vehicles must serve a set of customers
+- A fleet of vehicles must visit a set of customer locations
 - All vehicles start and end at a central depot
 - The goal is to minimize the total distance traveled
-- Each customer must be visited exactly once
-- Vehicles have constraints (capacity, maximum distance, etc.)
+- Each location must be visited exactly once
+- Vehicles have maximum distance constraints
 
 ## Implementation
 

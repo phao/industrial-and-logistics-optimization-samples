@@ -3,14 +3,13 @@ Vehicle Routing Problem (VRP) Solver
 
 This module implements a solution to the classic Vehicle Routing Problem using
 Google OR-Tools. The VRP is an optimization problem where a fleet of vehicles
-must serve a set of customers, minimizing the total distance traveled while
-respecting vehicle capacity constraints.
+must serve a set of customers, minimizing the total distance traveled.
 
 Problem Description:
 - A depot location where all vehicles start and end
-- Multiple customer locations with specific demands
-- A fleet of vehicles with limited capacity
-- Goal: Minimize total distance traveled while satisfying all demands
+- Multiple customer locations to visit
+- A fleet of vehicles with maximum travel distance constraints
+- Goal: Minimize total distance traveled while visiting all locations
 """
 
 from ortools.constraint_solver import routing_enums_pb2
