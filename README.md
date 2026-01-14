@@ -1,4 +1,6 @@
-# Supply Chain Optimization: Blending Problem
+# Sample - Supply Chain Optimization: Blending Problem
+
+**File:** `blending_optimizer.py` and results in `blending_results.txt`.
 
 This repository demonstrates a **Linear Programming (LP)** approach to solving a multi-constraint blending problem, commonly found in process industries (Chemical, Food, Cosmetics).
 
